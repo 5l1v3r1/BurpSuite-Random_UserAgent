@@ -15,3 +15,5 @@ $ javac burp/*.java
 $ jar cf random-useragents.jar burp/*.class
 
 ```
+
+video installation [video](https://i.imgur.com/4rRAIbX.mp4)
