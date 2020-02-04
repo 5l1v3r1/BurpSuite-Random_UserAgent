@@ -7,3 +7,11 @@ A Burp Suite extension to help pentesters to generate a random user-agent. This 
 
 Installation
 --
+
+```shell
+$ git clone https://github.com/m4ll0k/BurpSuite-Random_UserAgent.git random-useragents
+$ cd random-useragents/src/main/java
+$ javac burp/*.java
+$ jar cf random-useragents.jar burp/*.class
+
+```
