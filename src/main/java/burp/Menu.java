@@ -24,8 +24,8 @@ public class Menu implements IContextMenuFactory {
             return menus;
         }
 
-        JMenuItem sendXMLToRepeater = new JMenuItem("Random User-Agent");
-        sendXMLToRepeater.addMouseListener(new MouseListener() {
+        JMenuItem Burp_ = new JMenuItem("Random User-Agent");
+        Burp_.addMouseListener(new MouseListener() {
 
             public void mouseClicked(MouseEvent arg0) {
 
@@ -55,7 +55,7 @@ public class Menu implements IContextMenuFactory {
             }
         });
 
-        menus.add(sendXMLToRepeater);
+        menus.add(Burp_);
         return menus;
     }
 
