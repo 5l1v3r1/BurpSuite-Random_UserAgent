@@ -8,6 +8,8 @@ A Burp Suite extension to help pentesters to generate a random user-agent. This 
 Installation
 --
 
+Download a jar file in release or compile the java code:
+
 ```shell
 $ git clone https://github.com/m4ll0k/BurpSuite-Random_UserAgent.git random-useragents
 $ cd random-useragents/src/main/java
